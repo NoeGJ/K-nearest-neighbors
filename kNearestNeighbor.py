@@ -1,9 +1,8 @@
 from collections import Counter
 import discreteMaths
 
-class kNearestNeighbor(discreteMaths.DiscreteMaths):
+class kNearestNeighbor(discreteMaths.DiscreteMath):
     def __init__(self, k = 2):
-        #super().__init__(array1, array2)
         self.k = k
 
     def standardization(self, array, newData):
